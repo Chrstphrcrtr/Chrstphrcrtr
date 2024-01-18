@@ -45,7 +45,7 @@ on:
         with:
             target_branch: output
             build_dir: dist
-            commit_message: update snake animations
+            commit_message: Update snake animations
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
